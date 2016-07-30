@@ -3,26 +3,22 @@ body,ul,li,h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	list-style: none;
 }
-
 .tp{
-	position: absolute;
-	top:0;left: 0;
-	bottom: 0;right: 0;
+	position: fixed;
+	top:0;left: 0;right: 0;bottom: 0;
 	margin: auto;
-	background:url(bjt.jpg);
-    background-size: cover;
+	background:url(bjt.jpg)no-repeat;
+	background-size:cover;
 	overflow: hidden;
 }
+
 .zuozi{
 	width:700px;
-	height:600px;
+	height:100%;
 	position: absolute;
 	top:0;left: 0;
-	right: 0;bottom:0;
+	right: 0;
 	margin: auto;
-    /* background:url(2016-07-12_004611.png); */
-	background-size: cover;
-	position: relative;
 }
 .puke{
 	width: 100px;
@@ -37,8 +33,9 @@ body,ul,li,h1,h2,h3,h4,h5,h6{
 	width:100px;
 	height:50px;
 	position: absolute;
-	top:510px;
-	left: 630px;
+	right: 0;left: 0;
+	bottom: 16%;
+	margin: auto;
 	background:url(tb1.png);
 	background-size: cover; 
 	cursor: pointer;
@@ -48,8 +45,9 @@ body,ul,li,h1,h2,h3,h4,h5,h6{
 	width:100px;
 	height:50px;
 	position: absolute;
-	top:560px;
-	left:640px;
+	right: 0;left: 0;
+	bottom: 8%;
+	margin: auto;
 	background:url(tb2.png);
 	background-size: cover;
 	cursor: pointer;
@@ -83,13 +81,12 @@ body,ul,li,h1,h2,h3,h4,h5,h6{
 	}
 }
 
-.kk{
-	width: 100px;
-	height: 140px;
-	position: absolute;
-	left:783px;top:490px;
-	box-shadow: 0 0 5px 2px blue; 
-	z-index:0;
+.youhe{
+	width: 25%;
+	position: fixed;
+	top:0;left: 0;
+	bottom:0;
+	margin: auto;
 }
 .kaishi{
 	width: 380px;
